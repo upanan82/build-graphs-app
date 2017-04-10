@@ -53,9 +53,9 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.Location = new System.Drawing.Point(12, 31);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(286, 15);
+            this.label1.Size = new System.Drawing.Size(271, 15);
             this.label1.TabIndex = 0;
-            this.label1.Text = "В первую строку записываются номера вершин,";
+            this.label1.Text = "The first line contains the numbers of the vertices";
             // 
             // label2
             // 
@@ -63,9 +63,9 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label2.Location = new System.Drawing.Point(12, 46);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(267, 15);
+            this.label2.Size = new System.Drawing.Size(263, 15);
             this.label2.TabIndex = 1;
-            this.label2.Text = "в которые заходят дуги из первой вершины, ";
+            this.label2.Text = "into which the arcs from the first vertex come in,";
             // 
             // label3
             // 
@@ -73,9 +73,9 @@
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label3.Location = new System.Drawing.Point(12, 76);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(292, 15);
+            this.label3.Size = new System.Drawing.Size(301, 15);
             this.label3.TabIndex = 2;
-            this.label3.Text = "Во второй строке указываются верхние границы";
+            this.label3.Text = "The second line specifies the upper bounds of the end";
             // 
             // label4
             // 
@@ -83,9 +83,9 @@
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label4.Location = new System.Drawing.Point(12, 91);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(290, 15);
+            this.label4.Size = new System.Drawing.Size(268, 15);
             this.label4.TabIndex = 3;
-            this.label4.Text = "окончания списков вершин, смежных с заданной";
+            this.label4.Text = "of the lists of vertices adjacent to the given vertex";
             // 
             // label5
             // 
@@ -93,9 +93,9 @@
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label5.Location = new System.Drawing.Point(12, 61);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(136, 15);
+            this.label5.Size = new System.Drawing.Size(206, 15);
             this.label5.TabIndex = 4;
-            this.label5.Text = "далее из второй и т.д.";
+            this.label5.Text = "then from the second vertex, and etc.";
             // 
             // label6
             // 
@@ -103,9 +103,9 @@
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label6.Location = new System.Drawing.Point(12, 106);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(217, 15);
+            this.label6.Size = new System.Drawing.Size(125, 15);
             this.label6.TabIndex = 5;
-            this.label6.Text = "вершиной по входящим в нее дугам.";
+            this.label6.Text = "by the arcs entering it.";
             // 
             // pictureBox1
             // 
@@ -122,9 +122,9 @@
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label7.Location = new System.Drawing.Point(12, 9);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(149, 15);
+            this.label7.Size = new System.Drawing.Size(189, 15);
             this.label7.TabIndex = 7;
-            this.label7.Text = "Пример ввода графа";
+            this.label7.Text = "Example of entering a graph";
             // 
             // label8
             // 
@@ -132,18 +132,18 @@
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label8.Location = new System.Drawing.Point(12, 134);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(226, 15);
+            this.label8.Size = new System.Drawing.Size(237, 15);
             this.label8.TabIndex = 8;
-            this.label8.Text = "Ниже приведен пример ввода графа,";
+            this.label8.Text = "Below is an example of entering the graph";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
             this.label9.Location = new System.Drawing.Point(378, 165);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(38, 13);
+            this.label9.Size = new System.Drawing.Size(34, 13);
             this.label9.TabIndex = 9;
-            this.label9.Text = "Рис. 1";
+            this.label9.Text = "Pic. 1";
             // 
             // label10
             // 
@@ -189,9 +189,9 @@
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label12.Location = new System.Drawing.Point(12, 149);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(149, 15);
+            this.label12.Size = new System.Drawing.Size(110, 15);
             this.label12.TabIndex = 14;
-            this.label12.Text = "указанного на рисунке 1:";
+            this.label12.Text = "shown in Picture 1:";
             // 
             // Form4
             // 
