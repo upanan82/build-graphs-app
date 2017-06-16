@@ -1,2 +1,2 @@
 # build-graphs-app
-<b>Note!</b> The program compares two oriented graphs defined in the modified FO-representation (MFO) on the equivalence of radii, after removing the hanging vertices in them. The top of the graph should be no more than 20, the number of arcs is not more than 50.
+<b>Note!</b> The program draws and compares two oriented graphs. Number of arcs - max 50. Number of vertices - max 20. 
